@@ -10,7 +10,7 @@ function setup() {
         values[i] = Math.random()*height*.76+height*.12;    
     }
 
-    quickSort(values, 0, values.length-1)
+    quickSort(values, 0, values.length-1);
 }
 
 function draw() {
