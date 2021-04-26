@@ -15,13 +15,9 @@ function setup() {
 
 function draw() {
     background(0);
-    stroke(255);
+    stroke(0);
+    fill(235)
     for (i = 0; i < values.length; i++) {
-        stroke(0);
-        fill(255);
-        if (i == 3) {
-            fill(100);
-        }
         rect(i*w, height - values[i], w, values[i]);
     }
 }
