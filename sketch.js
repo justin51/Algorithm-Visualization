@@ -1,6 +1,6 @@
 
-let values = [];
 let w = 4;
+let values = [];
 let states = [];
 
 function setup() {
